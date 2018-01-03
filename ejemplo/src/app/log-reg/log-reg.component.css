@@ -1,9 +1,53 @@
-div {
-    background: rgb(2, 88, 23);
-    color: white;
-    width: 20%;
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans+Extra+Condensed');
+
+
+
+
+*{
+	margin: 0px;
+	padding: 0px;
 }
 
-a {
-    background: blue;
+
+div {
+	
+	width: 30%;
+	font-size: 15px;
+	
+	margin-left: 320px;
+
 }
+
+ul {
+
+	list-style: none;
+    position: relative;
+   	left: 700px;
+   	bottom: 70px;
+
+}
+
+li {display: inline-block;
+	
+	background: #000;
+	width: 150px;
+	margin: -10px;
+	padding: 5px 10px;
+	}
+
+div ul li a {
+
+	color:#fff;
+	
+	display: block;
+	text-decoration: none;
+	font-family: 'Fira Sans Extra Condensed',sans-serif;
+	
+	
+	
+}
+
+ li:hover { 
+
+	background: #434343;
+	}
