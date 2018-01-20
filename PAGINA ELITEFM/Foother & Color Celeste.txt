@@ -1,0 +1,7 @@
+LRT 809 101.5 Mhz - Barrio Argentino - General Cabrera - Cordoba - Artistas Independientes - Tango - Jazz - Blues - Rock - Pop
+
+*************************************************
+
+COLOR CELESTE: Hex={62,B0,FF} 62B0FF
+
+*************************************************
