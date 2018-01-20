@@ -18,9 +18,9 @@
 	display: -webkit-flex;
 	display-ms-flexbox;
 	display: flex;
-	justify-content: center;
+	justify-content: flex-start;
 	list-style: none;
-	background:#000;
+	
 
 }
 
@@ -28,10 +28,11 @@
 .menu ul li {
 	flex-direction: row;
 	text-align: center;
+	background:#000;
 }
 
 .menu ul li a{
-	padding: 1.3em;
+	padding: 1.2em 1.3em;
 	color:#fff;
 	text-decoration: none;
 	display: block;
@@ -39,4 +40,39 @@
 
 .menu ul li a:hover{
 	background:#434343;
+	text-decoration: underline;
+}
+
+
+
+
+/* MENU SEGUNDA CAPA */
+.menu ul li ul {
+	display: none;
+	position: absolute;
+}
+
+
+.menu li:hover > ul {
+	display: block;
+}
+
+
+/* REPRODUCTOR */
+
+.Reproductor {
+	width: 25%;
+	position: fixed;
+	bottom:33em;
+	left: 63.8em;
+}
+
+
+/*APLICACION */
+
+.Aplicacion {
+	background:#0062AB;
+	position: relative;
+	right: 20em;
+	top: 5em;
 }

@@ -66,116 +66,86 @@ open(url,'','top=80,left=350,width=420,height=650') ;
 </script>
 </head>
 <body onload="popup()" background="img/fondocopado.png" vlink="#0000FF">
-&lt;?php include_once("seguimientoanalytics.php") ?>
+&lt;
 <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W6JW976"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 <p align="center">&nbsp;</p>
 
-<p align="center"><img border="0" src="img/heater2.jpg" width="975" height="179"></p>
-
-<p align="center"><marquee behavior="alternate" style="font-family: Arial Narrow; font-size: 14 pt; color: #FFFFFF; font-weight: bold" align="middle" scrolldelay="10" width="1028" height="30">Rumbo
-a los 10 Años de Transmision Ininterrumpida Online de Artistas Independientes
-de Tango, Jazz, Blues, Rock &amp; Pop...</marquee></p>
-
-
-
-<!--  ACA ARRANCA EL MENU
-
-
-<table border="0" width="100%" bgcolor="#FFFFFF">
-  <tr>
-    <td>
-      <p align="center"><b><font face="Arial Narrow">&nbsp;</font><a target="_blank" href="http://www.elitefm.com.ar/programacion.php"><font face="Arial Narrow">Programacion</font></a><font face="Arial Narrow">&nbsp;</font></b></td>
-    <td>
-      <p align="center"><b><font face="Arial Narrow">&nbsp; </font><a target="_blank" href="http://www.elitefm.com.ar/demos.php"><font face="Arial Narrow">Demos</font></a><font face="Arial Narrow">&nbsp;&nbsp;</font></b></td>
-    <td>
-      <p align="center"><b><font face="Arial Narrow">&nbsp; </font><a target="_blank" href="http://www.elitefm.com.ar/amigos.php"><font face="Arial Narrow">Amigos</font></a><font face="Arial Narrow">&nbsp;&nbsp;</font></b></td>
-    <td>
-      <p align="center"><b><a target="_blank" href="http://www.elitefm.com.ar/bibliot_audios.php"><font face="Arial Narrow">Biblioteca de Audios</font></a></b></td>
-    <td>
-      <p align="center"><b><font face="Arial Narrow"><a target="_blank" href="http://www.elitefm.com.ar/noticias.php">Noticias de Elite FM</a></font></a></b></td>
-    <td>
-      <p align="center"><b><font face="Arial Narrow">&nbsp; </font><a target="_blank" href="http://elitegeneralcabrera.blogspot.com.ar/"><font face="Arial Narrow">Blog</font></a><font face="Arial Narrow">&nbsp;&nbsp;</font></b></td>
-    <td>
-      <p align="center"><b><font face="Arial Narrow">&nbsp; </font><a href="javascript:abrir('nosotros.html')"><font face="Arial Narrow">Nosotros</font></a><font face="Arial Narrow">&nbsp;&nbsp;</font></b></td>
-    <td>
-      <p align="center"><b><font face="Arial Narrow">&nbsp; </font></b><a href="javascript:abrir('formulario.html')"><b><font face="Arial Narrow">Contacto</font></b></a><b><font face="Arial Narrow">&nbsp;&nbsp;</font></b></p></td>
-  </tr>
-</table>
-<table border="0" width="100%" bgcolor="#62B0FF">
-  <tr>
-    <td width="100%">&nbsp;</td>
-  </tr>
-</table>
-
--->
-
-
-
+<!--  MENU  DE NAVEGACION  -->
 <div class="menu">
   <ul>
     <li><a href="http://www.elitefm.com.ar/programacion.php"> Programacion </a></li>   
-    <li><a href="http://www.elitefm.com.ar/demos.php">  Demos  </a></li>
+    
     <li><a href="http://www.elitefm.com.ar/amigos.php">  Amigos  </a></li>
     <li><a href="http://www.elitefm.com.ar/bibliot_audios.php">  Biblioteca  de   audios </a></li>
     <li><a href="http://www.elitefm.com.ar/noticias.php">  Noticias   </a></li>
-    <li><a href="http://elitegeneralcabrera.blogspot.com.ar/"> Blog    </a></li>
-    <li><a href="javascript:abrir('nosotros.html')"> Nosotros </a></li>
-    <li><a href="javascript:abrir('formulario.html')">  Contacto </a></li>
+    
+    <li><a href="javascript:abrir('nosotros.html')"> Nosotros </a>
+      <ul>
+        <li><a href="http://www.elitefm.com.ar/demos.php">  Demos  </a></li>
+        <li><a href="http://elitegeneralcabrera.blogspot.com.ar/"> Blog    </a></li>
+        <li><a href="javascript:abrir('formulario.html')">  Contacto </a></li>
+      </ul>
+
+
+    </li>
+
+
+    
   </ul>
 </div>
 
 
-<table border="0" width="100%">
-  <tr>
-    <td width="30%">
-      &nbsp;
-      <table border="0" width="100%">
-        <tr>
-          <td width="100%">
-            <p align="center"><embed src=http://flash-clocks.com/free-flash-clocks-blog-topics/free-flash-clock-183.swf width=100 height=25 wmode=transparent type=application/x-shockwave-flash></td>
-        </tr>
-        <tr>
-          <td width="100%">
+
+
+
+
+
+
+
+
+
+  <div class="Aplicacion">
+            
+        
+        
             <p align="center">
       <marquee style="font-family: Arial Black; font-size: 14 pt; color: #FF0000; font-weight: bold; text-decoration: blink" align="middle" behavior="alternate" scrolldelay="10" width="152" height="30">ATENCION
       !</marquee>
-          </td>
-        </tr>
-        <tr>
-          <td width="100%" bgcolor="#FFFFFF">
+       
+    
             <p align="center"><font face="Arial Narrow"><b>La App anterior
             dejará de funcionar...</b></font>
             <p align="center"><b><font face="Arial Narrow">NUEVA ACTUALIZACION
             -&gt;<font face="Arial Narrow" size="4" color="#FF0000">
       </font><a href="http://www.elitefm.com.ar/apk/elite_fm_1015.apk"><font color="#FF0000">AQUI...!</font></a></font></b>
-          </td>
-        </tr>
-        <tr>
-          <td width="100%">
-            <p align="center">
-      <marquee style="font-family: Arial Black; font-size: 14 pt; color: #FF0000; font-weight: bold; text-decoration: blink" align="middle" behavior="alternate" scrolldelay="10" width="140" height="30">NUEVO
-      !</marquee>
-          </td>
-        </tr>
-      </table>
-    </td>
-    <td width="40%">
-      <p align="center"><b><u><font face="Calibri" color="#FFFFFF" size="4">Transmitiendo En Vivo...!!!</font></u></b>
-      <p align="center">&nbsp;
-      <table border="0" width="100%">
-        <tr>
-          <td width="100%">
+     
+        </div>
+
+
+
+
+
+     
+
+
+      <!-- REPRODUCTOR DE LA RADIO -->
+      <div class="Reproductor">
+             <p align="center"><b><u><font face="Calibri" color="#FFFFFF" size="4">Transmitiendo En Vivo...!!!</font></u></b>
+             <p align="center">&nbsp;
             <p align="center"><audio controls autoplay id="sonido" src="http://listen.shoutcast.com/elitefm1015-online-generalcabrera/;">
-</audio></p>
-</td>
-        </tr>
-      </table>
-	<p align="center"><b><u><a target="_blank" href="http://www.elitefm.com.ar/lista.html"><font face="Calibri" size="3" color="#FF0000">-&gt;
-    En el Aire Ahora..</font></a><font face="Calibri" size="3" color="#FF0000">.</font></u></b></p>
-    </td>
+            </audio></p>
+            <p align="center"><b><u><a target="_blank" href="http://www.elitefm.com.ar/lista.html"><font face="Calibri" color="#FF0000">-&gt;
+    En el Aire Ahora..</font></a><font face="Calibri"  color="#FF0000">.</font></u></b></p>
+    </td>  
+        
+      </div>
+	
+
+
+    <!-- OTROS ICONOS PARA REPRODUCIR RADIO -->
     <td width="30%">
       <table border="0" width="100%">
         <tr>
