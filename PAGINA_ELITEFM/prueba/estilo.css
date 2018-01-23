@@ -1,0 +1,108 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+
+
+
+/*MENU */
+
+.menu {
+	font-family: Arial Black;
+	
+	
+}
+
+
+.menu ul {
+	display: -webkit-flex;
+	display-ms-flexbox;
+	display: flex;
+	justify-content: flex-start;
+	list-style: none;
+	
+
+}
+
+
+.menu ul li {
+	flex-direction: row;
+	text-align: center;
+	background:#000;
+}
+
+.menu ul li a{
+	padding: 1.2em 1.3em;
+	color:#fff;
+	text-decoration: none;
+	display: block;
+}
+
+.menu ul li a:hover{
+	background:#434343;
+	text-decoration: underline;
+}
+
+/* MENU SEGUNDA CAPA */
+.menu ul li ul {
+	display: none;
+	position: absolute;
+}
+
+
+.menu li:hover > ul {
+	display: block;
+}
+
+
+/* REPRODUCTOR */
+
+.Reproductor {
+	width: 25%;
+	position: fixed;
+	bottom:33em;
+	left: 40em;
+}
+
+
+/*APLICACION */
+
+.Aplicacion {
+	background:#0062AB;
+	position: relative;
+	right: 20em;
+	top: 5em;
+}
+
+
+/*IMAGEN INICIO*/
+
+.image_inicio{
+	text-align: center;
+	margin-top: 2em;
+}
+/*EJEMPLO MARQUEE*/
+
+.wrapper {
+	margin: auto;
+	margin-top: .3em;
+  	position: relative;
+  	overflow: hidden;
+  	height: 2em;
+  	width: 71.5%;
+  	border: 1px solid black;
+}
+
+.wrapper p {
+  	position: absolute;
+  	margin: 0;
+  	line-height: 25px;
+  	white-space: nowrap;
+  	animation: marquee 28s linear infinite;
+}
+
+@keyframes marquee {
+  	0% { transform: translateX(100%); }
+  	100% { transform: translateX(-100%); }
+}
