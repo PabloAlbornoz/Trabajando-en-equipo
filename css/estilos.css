@@ -1,0 +1,78 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+
+header {
+	background: #434343;
+	text-align: center;
+	max-width: 100%;
+
+}
+
+section {
+	background: #ffe700;
+	width: 50%;
+	height: 200px;
+	min-width: 200px;
+	overflow: auto;
+}
+
+aside{
+	background: #ff4600;
+	width: 50%;
+	height: 200px;
+	min-width: 200px;
+	overflow: auto;
+}
+
+section,aside{
+	float: left;
+}
+
+
+footer{
+	 background: #ff0808;
+	 position: absolute;
+	 width: 100%;
+	 bottom: 0;
+}
+
+
+
+
+/* MENU DE NAVEGACION 1 CAPA*/
+/*background: #4593d8;*/
+nav {
+	background: #0065bf;
+	 
+	
+}
+
+nav ul {
+	
+	list-style: none;
+	margin:0% 3%;
+	min-width: 300px;
+
+}
+
+ul li{
+	 
+display: inline-block;
+
+	 
+}
+
+li a{
+	color: #ffffff;
+	text-decoration: none;
+	display: block;
+	padding: 10% 12%;
+}
+
+
+ul li a:hover{
+	background: #0a4d8a;
+}
