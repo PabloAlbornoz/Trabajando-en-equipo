@@ -2,31 +2,70 @@
 <html lang="ES">
 <head>
 	<meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="css/estilo.css">
-	<link rel="stylesheet" href="fonts/style.css">
 	<title>MENU RESPONSIVE CON FLEXBOX</title>
+
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+	<link rel="stylesheet" href="fonts/style.css">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0 , maximum-scale=1.0, minimum-scale=1.0">
 </head>
 <body>
 	<header>
 
+		<!-- ESTA ES LA BARRA DE INICIO QUE DICE "ELITE FM" Y EL ICONO DEL MICROFONO. SE PODRIA PONERLE JAVASCRIPT Y AL HACER CLICK PODRIA HACER EL MENU DESPLEGABLE -->
 		<div class="menu_bar">
-			<a href="#" class="boton_menu"><span class="icon-menu"></span>Menu</a>
+			<a href="#" class="boton_menu"><span class="icon-mic"></span>Elite FM 101.5</a>
 		</div>
-	
+
+
+		<!-- ESTA ES LA LISTA, EL MENU CON LAS OPCIONES Y LOS ICONOS-->
 		<nav>
 		 
 			<ul class="menu">
-				<li><a href="#"><span class="icon-home"></span>Home</a></li>
-				<li><a href="#"><span class="icon-newspaper"></span>About</a></li>
-				<li><a href="#"><span class="icon-briefcase"></span>Services</a></li>
-				<li ><a href="#"><span class="icon-users"></span>Customers</a></li>
-				<li class="ultimo_li"><a href="#"><span class="icon-whatsapp"></span>Contact</a></li>
+				<li><a href="#"><span class="icon-home"></span>Inicio</a></li>
+				<li><a href="#"><span class="icon-newspaper"></span>Noticias</a></li>
+				<li> <a href="#"><span class="icon-headphones"></span>Biblioteca de audios</a></li>
+				<li><a href="#"><span class="icon-blogger"></span>Blog</a></li>
+				<li ><a href="#"><span class="icon-users"></span>Amigos</a></li>
+				<li class="ultimo_li"><a href="#"><span class="icon-whatsapp"></span>Contacto</a></li>
 			</ul>
 		</nav>
 
+		
+
 	</header>
 
-	<section>
+
+	<!-- ACA EMPEZARIA EL CUERPO DE LA PAGINA, DEBAJO DEL MENU, PODEMOS METER EL REPRODUCTOR EN ESTA PARTE -->
+	<section class="reproductor">
+		<!-- ESTE ES UN WIDGET DE UN REPRODUCTOR -->
+		<script type="text/javascript" src="http://www.netyco.com:82/radio-x-internet/player/player.js"></script>
+		<div id="radioload">Tu radio en Internet <a alt="Transmite tu radio por internet, setreaming gratis con Netyco, servidores de radio por internet" href="http://www.netyco.com/radio-x-internet/radio.php">Netyco Argentina</a>
+		</div>
+		<script type="text/javascript">
+		var params={
+		'url':'http:///;',
+		'lang':'es',
+		'codec':'mp3',
+		'volume':100,
+		'autoplay':false,
+		'buffering':10,
+		'title':'Radio%20Garka',
+		'bgcolor':'#FFFFFF',
+		'winmedia':true,
+		'realplayer':true,
+		'quicktime':true,
+		'html5':true,
+		'celulares':true,
+		'skin':'mcclean',
+		'width':180,
+		'height':60
+		};Netyco.insert(params);
+		</script>
+
+	</section>
+
+	<!-- PODEMOS DIVIDIR ESTA PARTE EN VARIAS USANDO LOS "SECTION CLASS" O SOLO LO DEJAMOS TAL CUAL CON UNA DIVISION 60% LA SECCION PRINCIPAL Y 40% LO SUBJETIVO, COSAS DE FACEBBOK , TWITTER, ALGO COMPLEMENTARIO ETC-->
+	<section class="principal">
 		<article>
 			<h2>Contenido principal</h2>
 			<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium</p>
@@ -38,13 +77,26 @@
 		<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium</p>
 	</aside>
 
-	<section class="slider">ACA VA EL SLIDER</section>
 
+	<!-- ESTE SECTION SE PUEDE USAR PARA PONER EL SLIDER QUE TUKA ESTABA ARMANDO EL OTRO DIA , LO PODEMOS UBICAR MAS ARRIBA O DEJARLO ACA-->
+	<section class="slider"> <p>ACA VA EL SLIDER</p></section>
+
+
+	<!-- EL PIE DE PAGINA, SIEMPRE AL FINAL DEL CUERPO DE LA PAGINA-->
+
+	<section class="red_social">
+		
+			<a href="#"><span class="icon-facebook2"></span>Siguenos en facebook</a>
+			<a href="#"><span class="icon-twitter"></span>Siguenos en twitter</a>
+	
+	</section>
 
 	<footer>
-		<marquee><p>Creado por mi en el 2017</p></marquee>
+		<p>ELITE FM RADIO CORDOBESA</p>
 	</footer>
 
+
+	<!-- DEJO ESTE ENLACE PORQUE CAPAZ LE MANDEMOS JAVASCRIPT-->
 	<script type="text/javascript" src="scripts/main.js"></script>
 </body>
 </html>
